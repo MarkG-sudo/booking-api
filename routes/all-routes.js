@@ -1,6 +1,6 @@
 import { Router } from "express"
 import { deleteBooking, getAllBookings, getOneBooking, postBooking, updateBooking } from "../controllers/booking-controllers.js";
-import { booking } from "../models/booking-model.js";
+import { BookingModel } from "../models/booking-model.js";
 
 
 

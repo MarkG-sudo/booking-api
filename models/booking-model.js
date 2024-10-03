@@ -24,13 +24,13 @@ const bookingSchema = new mongoose.Schema({
 
     seatNumber : {
         type : Number,
-        unique : true,
+        // unique : true,
         // required : true
     },
 
     email : {
         type : String,
-        unique : true,
+        // unique : true,
         // required : true 
     },
 
@@ -39,4 +39,4 @@ const bookingSchema = new mongoose.Schema({
 
 
 
-export const booking = mongoose.model("Booking", bookingSchema);
+export const BookingModel = mongoose.model("Booking", bookingSchema);
